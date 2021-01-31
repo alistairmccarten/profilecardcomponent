@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+html, body{
+    height: 100%; 
+    font-family: Kumbh Sans, sans-serif;
+}
+
+body{
+    background: hsl(185, 75%, 39%); 
+    height: 100%; 
+}
+h1, h2{
+    font-size: 18px; 
+    font-weight: 700;
+}
+h3{
+    padding: 0; 
+    padding-left: 10px;
+    font-weight: 400;
+    color: gray;
+}
+p{
+    font-size: 16px;
+    color: gray; 
+}
+#circleTop{ 
+    position: absolute; 
+    top: -400px;
+    left: -350px;  
+    z-index: -1; 
+}    
+#circleBottom{
+    position: absolute; 
+    bottom: -600px; 
+    right: -300px; 
+    z-index: -1; 
+}
+#container{
+    height: 100%; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 400px; 
+    width: 350px;
+    border-radius: 5%; 
+    background-color: white;
+    position: relative;
+    text-align: center;
+}
+.top{
+    display: flex; 
+    justify-content: center;
+}
+#backgroundCardTop{
+    border-radius: 5% 5% 0 0; 
+    position: absolute;
+    z-index: 1;      
+}
+#profilePicture{
+    height: 100px;
+    border: solid 5px; 
+    border-color: white;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: 90px; 
+    left: 125px; 
+}
+.middle{
+    display: flex; 
+    align-items: baseline;
+    justify-content: center;
+    position: relative; 
+    top: 200px; 
+}
+#location{ 
+    position: relative; 
+    top: 175px; 
+}
+.bottom{
+    height: 100%; 
+    display: flex; 
+    justify-content: space-evenly;
+    position: relative; 
+    top: 200px; 
+}
+.stat{
+    margin: 0; 
+    padding: 0; 
+}
+.classDescriptor{
+    margin: 0; 
+    padding-top: 0; 
+}
+hr{
+    position: relative; 
+    top: 190px; 
+    color: lightgray; 
+}
+.stat{
+    padding-top: 10px; 
+    margin: 0; 
+}
+.statDescriptor{
+    padding: 5px;
+    margin: 0; 
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: white; 
+}
+
