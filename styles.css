@@ -23,6 +23,12 @@ p{
     font-size: 16px;
     color: gray; 
 }
+section{
+    height: 100%;
+    width: 100%; 
+    position: relative; 
+    overflow: hidden; 
+}
 #circleTop{ 
     position: absolute; 
     top: -400px;
@@ -34,6 +40,7 @@ p{
     bottom: -600px; 
     right: -300px; 
     z-index: -1; 
+    overflow: hidden; 
 }
 #container{
     height: 100%; 
@@ -109,10 +116,13 @@ hr{
 }
 .attribution { 
     font-size: 11px; 
-    text-align: center; 
+    position: relative; 
+    top: -100px; 
 }
-    
 .attribution a { 
     color: white; 
+}
+.attribution p{ 
+    color: black; 
 }
 
